@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Samwix Gamgee",
+    "age": 25,
+    "roasts": "light",
+    "flavors": {
+      "honey": 8,
+      "cocoa": 3,
+      "cranberry": 4,
+      "peach": 4,
+      "lavender": 3,
+      "malt": 0
+    }
+  },
+  {
+    "name": "Sarah Konno",
+    "age": 35,
+    "roasts": "light",
+    "flavors": {
+      "honey": 1,
+      "cocoa": 8,
+      "cranberry": 6,
+      "peach": 4,
+      "lavender": 0,
+      "malt": 2
+    }
+  },
+  {
+    "name": "Monday Addams",
+    "age": 19,
+    "roasts": "dark",
+    "flavors": {
+      "honey": 4,
+      "cocoa": 4,
+      "cranberry": 2,
+      "peach": 2,
+      "lavender": 0,
+      "malt": 2
+    }
+  },
+  {
+    "name": "Edna Mott",
+    "age": 26,
+    "roasts": "dark",
+    "flavors": {
+      "honey": 3,
+      "cocoa": 2,
+      "cranberry": 3,
+      "peach": 2,
+      "lavender": 4,
+      "malt": 1
+    }
+  },
+  {
+    "name": "Catney Everdeen",
+    "age": 21,
+    "roasts": "medium",
+    "flavors": {
+      "honey": 2,
+      "cocoa": 0,
+      "cranberry": 2,
+      "peach": 2,
+      "lavender": 2,
+      "malt": 0
+    }
+  },
+  {
+    "name": "John Snow",
+    "age": 30,
+    "roasts": "medium",
+    "flavors": {
+      "honey": 2,
+      "cocoa": 4,
+      "cranberry": 4,
+      "peach": 6,
+      "lavender": 4,
+      "malt": 4
+    }
+  }
+]

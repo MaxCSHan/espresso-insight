@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Tropical Brew",
+    "price": 8,
+    "roast": "light",
+    "flavors": {
+      "honey": 0,
+      "cocoa": 2,
+      "cranberry": 7,
+      "peach": 7,
+      "lavender": 4,
+      "malt": 0
+    }
+  },
+  {
+    "name": "Baja Blast",
+    "price": 6,
+    "roast": "light",
+    "flavors": {
+      "honey": 8,
+      "cocoa": 0,
+      "cranberry": 6,
+      "peach": 6,
+      "lavender": 0,
+      "malt": 0
+    }
+  },
+  {
+    "name": "Classic Cold Brew",
+    "price": 7,
+    "roast": "dark",
+    "flavors": {
+      "honey": 2,
+      "cocoa": 10,
+      "cranberry": 2,
+      "peach": 0,
+      "lavender": 0,
+      "malt": 3
+    }
+  },
+  {
+    "name": "Cooling Castle",
+    "price": 6,
+    "roast": "medium",
+    "flavors": {
+      "honey": 6,
+      "cocoa": 0,
+      "cranberry": 0,
+      "peach": 10,
+      "lavender": 4,
+      "malt": 0
+    }
+  },
+  {
+    "name": "Blue Monday Crusher",
+    "price": 8,
+    "roast": "medium",
+    "flavors": {
+      "honey": 1,
+      "cocoa": 3,
+      "cranberry": 0,
+      "peach": 0,
+      "lavender": 0,
+      "malt": 6
+    }
+  },
+  {
+    "name": "Absolutely Zen",
+    "price": 7,
+    "roast": "medium",
+    "flavors": {
+      "honey": 0,
+      "cocoa": 0,
+      "cranberry": 5,
+      "peach": 5,
+      "lavender": 5,
+      "malt": 1
+    }
+  },
+  {
+    "name": "Christmas Invasion",
+    "price": 9,
+    "roast": "dark",
+    "flavors": {
+      "honey": 4,
+      "cocoa": 8,
+      "cranberry": 8,
+      "peach": 0,
+      "lavender": 0,
+      "malt": 0
+    }
+  },
+  {
+    "name": "The Gentlemen",
+    "price": 8,
+    "roast": "light",
+    "flavors": {
+      "honey": 0,
+      "cocoa": 8,
+      "cranberry": 0,
+      "peach": 0,
+      "lavender": 2,
+      "malt": 2
+    }
+  },
+  {
+    "name": "Mary Poppins",
+    "price": 7,
+    "roast": "light",
+    "flavors": {
+      "honey": 3,
+      "cocoa": 0,
+      "cranberry": 4,
+      "peach": 6,
+      "lavender": 2,
+      "malt": 2
+    }
+  }
+]

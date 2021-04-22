@@ -1,9 +1,36 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="flex flex-col min-h-screen">
+    <div
+      class="fixed w-screen h-16 flex justify-between items-center p-4 z-10 bg-primary text-white dark:bg-white"
+    >
+      <router-link to="/"
+        ><div class="text-2xl font-extrabold dark:text-primary">
+          Impresso Espresso
+        </div></router-link
+      >
+    </div>
+    <router-view />
+    <div
+      class="w-screen h-24 flex flex-col justify-between items-center p-4 z-10 bg-primary text-white dark:bg-white"
+    >
+      <div class="text-white mb-2">Created by Max Chen</div>
+      <div class="flex space-x-5">
+        <div>
+          <a
+            class="text-3xl"
+            href="https://www.instagram.com/tsukasakasa1231/"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <div>
+          <a class="text-3xl" href="https://github.com/MaxCSHan" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </div>
   </div>
-  <router-view />
 </template>
 
 <style lang="scss">
