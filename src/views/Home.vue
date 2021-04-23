@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-screen flex-grow pt-16 bg-white dark:bg-green-900 dark:text-white flex flex-col items-center"
+    class="w-screen flex-grow pt-20 bg-white dark:bg-green-900 dark:text-white flex flex-col items-center"
   >
     <div class="w-screen text-3xl md:text-4xl text-left pl-10 font-black">
       Overview
@@ -20,8 +20,8 @@
             :class="[
               `border-${option}`,
               roastFilter.has(option)
-                ? `bg-${option} text-white`
-                : `hover:text-white hover:bg-${option} `,
+                ? `bg-${option} dark:bg-${option} text-white dark:text-white`
+                : `hover:text-white hover:bg-${option}`,
             ]"
             @click="selectRoast(option)"
           >
@@ -31,7 +31,7 @@
         <div class="flex md:jusity-center">
           <div class="w-full">
             <input
-              class="h-12 p-2 w-full sm:w-10/12 rounded-full border-2 focus:outline-none focus:ring focus:border-blue-300 mb-4"
+              class="h-12 p-2 w-full sm:w-10/12 rounded-full border-2 focus:outline-none focus:ring focus:border-blue-300 mb-4 dark:text-black"
               v-model="searchName"
               placeholder="Search customer"
             />
@@ -136,6 +136,13 @@ export default defineComponent({
   name: "Home",
   components: {
     UserInsight,
+  },
+  watch: {
+    searchNames: function (newVal, oldVal) {
+      if (this.isOpen > newVal.length - 1) {
+        this.isOpen = -1;
+      }
+    },
   },
   data() {
     return {

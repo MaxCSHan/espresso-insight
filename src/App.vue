@@ -13,18 +13,21 @@
     <div
       class="w-screen h-24 flex flex-col justify-between items-center p-4 z-10 bg-primary text-white dark:bg-white"
     >
-      <div class="text-white mb-2">Created by Max Chen</div>
+      <div class="text-white dark:text-primary mb-2">Created by Max Chen</div>
       <div class="flex space-x-5">
         <div>
           <a
-            class="text-3xl"
+            class="text-3xl dark:text-primary"
             href="https://www.instagram.com/tsukasakasa1231/"
             target="_blank"
             ><i class="fab fa-instagram"></i
           ></a>
         </div>
         <div>
-          <a class="text-3xl" href="https://github.com/MaxCSHan" target="_blank"
+          <a
+            class="text-3xl dark:text-primary"
+            href="https://github.com/MaxCSHan"
+            target="_blank"
             ><i class="fab fa-github"></i
           ></a>
         </div>

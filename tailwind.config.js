@@ -2,7 +2,7 @@ module.exports = {
   purge: {
     content: ["./public/**/*.html", "./src/**/*.vue"],
     options: {
-      safelist: [/^bg-\w+$/, /^hover:bg-\w+$/, /^border-\w+$/],
+      safelist: [/^bg-\w+$/, /^hover:bg-\w+$/, /^dark:bg-\w+$/, /^border-\w+$/],
     },
   },
   darkMode: "media", // or 'media' or 'class'
