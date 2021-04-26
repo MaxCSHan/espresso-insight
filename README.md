@@ -1,4 +1,4 @@
-# lyght-test
+# Espresso Insight
 
 ## Project setup
 ```

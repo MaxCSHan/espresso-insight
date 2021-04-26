@@ -141,6 +141,8 @@ export default defineComponent({
     searchNames: function (newVal, oldVal) {
       if (this.isOpen > newVal.length - 1) {
         this.isOpen = -1;
+      } else {
+        this.selectedUser = this.searchNames[this.isOpen];
       }
     },
   },
